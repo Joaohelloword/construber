@@ -59,3 +59,52 @@ ul li.item a .logo i{
 ul li a.active{
     background-color: #FFD369;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
+button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+        background-color: #ffb892;
+        border: none;
+        padding: 6px;
+        font-family: bold;
+        border-radius: 12px;
+        cursor: pointer;
+        display: flex;
+}
+.deck-container{
+    width: 100%;
+    display: flex;
+    align-items: space-evenly;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 75px;
+    text-align: center;
+}
+.deck-container .card{
+    width: 350px;
+    height: 200px;
+    margin: 53px;
+}
+
+.deck-container .card img.produto{
+    max-width: 350px;
+}
+.deck-container .card button{
+    padding: 10px 40px;
+    display: block;
+margin-right: auto;
+margin-left: auto;
+    font-size: 15px;
+}
+h2{
+    color: #fff;
+}
+.deck-container .card:hover{
+    transform: scale3d(1.1, 1.1, 1);
+    transition: .3s;
+}
