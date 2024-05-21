@@ -56,6 +56,6 @@ ul li.item a .logo i{
     font-size: 30px;
     margin-left: 10px;
 }
-ul li a .active{
+ul li a.principal{
     background-color:#FFD369;
 }
