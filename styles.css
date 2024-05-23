@@ -101,12 +101,17 @@ margin-right: auto;
 margin-left: auto;
     font-size: 15px;
 }
-h2, h1, p{
-    color: #fff;
+h2 {
+    color: #EEEEEE;
     text-aling: center;
 }
 
 .deck-container .card:hover{
     transform: scale3d(1.1, 1.1, 1);
     transition: .3s;
+}
+h1{
+    color: #EEEEEE;
+    text-aling:center;
+}
 }
