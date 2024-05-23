@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 200vh;
+    background-color: #222831;
+    background-image: url(../construber/latrach-med-jamil-VCByE19oz_4-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+nav.menu-lateral{
+    width: 80px;
+    height: 100%;
+    background-color: #393E46;
+    padding: 40px 0 40px 1%;
+    box-shadow: 3px 0 0 #FFD369;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+nav.menu-lateral:hover{
+width: 300px;
+transition: .3s;
+}
+.expandir{
+    width: 100%;
+    padding-left: 10px;
+}
+.expandir i{
+    color: #EEEEEE;
+    font-size: 31px;
+    cursor: pointer;
+}
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+ul li.item:hover{
+    background-color: #FFD369;
+    transition: .3s;
+}
+ul li.item a{
+    color: #EEEEEE;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 4%;
+display: flex;
+margin-bottom: 26px;
+line-height: 40px;
+}
+ul li.item a .txt{
+    margin-left: 42px;
+}
+ul li.item a .logo i{
+    font-size: 30px;
+    margin-left: 10px;
+}
+ul li a.active{
+    background-color: #FFD369;
+}
+.img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 400px;
+    border-radius: 12px;
+}
+.form-container{
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin: 30px;
+    text-align: center;
+    color: #222831;
+    border: none;
+}
+p{
+    color: #222831;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: #FFD369;
+}
+.form-container{
+  max-width: 1280px;  
+  margin: 0 auto;
+  padding: 0 4%;
+}
+.form{
+    background-color: #FFFFFF;
+    max-width: 500px;
+    height:450px;
+    padding: 40px;
+    border-radius: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 250px;
+}
+.form h1{
+    text-align: center;
+    font-size: 30px;
+    color: #222831;
+}
+form p{
+    text-align: center;
+    margin: 20px 0;
+    
+}
+.input{
+    position: relative;
+    margin: 17px 0;
+}
+.input label{
+    position: absolute;
+    left: 0;
+    bottom: 5px;
+    transition: all 0.2s;
+    cursor: text;
+}
+.input2{
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #FFD369;
+    padding: 5px;
+font-size: 17px;
+outline: 0;
+}
+.form .input .input2:focus ~ label{
+    transform: translateY(-20px);
+    font-size: 12px;
+}
+.form .input .input2:focus ~ label,
+.form .input .input2:valid ~ label{
+    transform: translateY(-24px);
+    font-size: 12px;
+    color: #222831;
+}
+.btn{
+    width: 100%;
+    text-align: center
+    
+    ;
+}
+form input[type=submit]{
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 10px;
+    background-color: #FFD369;
+    color: #EEEEEE;
+    cursor: pointer;
+    padding-top: 10px;
+}
