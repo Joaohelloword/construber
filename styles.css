@@ -7,6 +7,8 @@
 body{
     height: 200vh;
     background-color: #222831;
+    text-aling:center;
+    text-color: #EEEEEE;
 }
 nav.menu-lateral{
     width: 80px;
