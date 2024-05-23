@@ -1,8 +1,8 @@
 <?php
-$rg = addslashes($_POST('rg'));
-$cpf = addslashes($_POST('cpf'));
-$cnh = addslashes($_POST('cnh'));
-$email = addslashes($_POST('email'));
+$rg = addslashes($_POST['rg']);
+$cpf = addslashes($_POST['cpf']);
+$cnh = addslashes($_POST['cnh']);
+$email = addslashes($_POST['email']);
 
 $para = "joaoanime.com@gmail.com";
 $assunto = "cadastro constrube";
