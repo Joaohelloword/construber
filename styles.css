@@ -7,8 +7,6 @@
 body{
     height: 200vh;
     background-color: #222831;
-    text-aling:center;
-    text-color: #EEEEEE;
 }
 nav.menu-lateral{
     width: 80px;
@@ -103,9 +101,11 @@ margin-right: auto;
 margin-left: auto;
     font-size: 15px;
 }
-h2{
+h2, h1, p{
     color: #fff;
+    text-aling: center;
 }
+
 .deck-container .card:hover{
     transform: scale3d(1.1, 1.1, 1);
     transition: .3s;
