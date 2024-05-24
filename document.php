@@ -7,9 +7,9 @@ $email = addslashes($_POST['email']);
 $para = "joaoanime.com@gmail.com";
 $assunto = "cadastro constrube";
 
-$corpo = "RG: ".$rg."\n"."cpf".$cpf."\n"."cnh".$cnh"."\n"."email :".$email;
+$corpo = "RG: ".$rg."\n"."cpf: ".$cpf."\n"."cnh: ".$cnh"."\n"."email: ".$email;
 
-$cabeça = "from: joaoanime.com@gmail.com"."\n"."Reply-to"$email"."\n"."X-Maile:PHP/".phpversion();
+$cabeça = "from: joaoanime.com@gmail.com"."\n"."Reply-to: "$email"."\n"."X-Maile:PHP/".phpversion();
 
 if(mail($para,$assunto,$corpo,$cabeça)){
     echo("email-enviado");
