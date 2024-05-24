@@ -9,7 +9,7 @@ body{
     background-color: #222831;
     background-image: url(theimg.jpg);
     background-size:100%;
-    image-repeat:;no-repeat
+    image-repeat:no-repeat;
 }
 nav.menu-lateral{
     width: 80px;
