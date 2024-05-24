@@ -110,8 +110,5 @@ h2 {
     transform: scale3d(1.1, 1.1, 1);
     transition: .3s;
 }
-h1{
-    color: #EEEEEE;
-    text-aling:center;
-}
-}
+h1, p{
+text-align:center;
