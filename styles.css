@@ -7,7 +7,7 @@
 body{
     height: 200vh;
     background-color: #222831;
-    background-image: url(myimg.jpg);
+    background-image: url(theimg.jpg);
     background-size:100%;
 }
 nav.menu-lateral{
