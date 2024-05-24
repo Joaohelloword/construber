@@ -8,6 +8,7 @@ body{
     height: 200vh;
     background-color: #222831;
     background-image: url(myimg.jpg);
+    background-size:100%;
 }
 nav.menu-lateral{
     width: 80px;
