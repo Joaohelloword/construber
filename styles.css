@@ -114,6 +114,7 @@ h2 {
 h1, p, h2, h3{
     text-align: center;
     color: #EEEEEE;
+    padding:10px;
 }
 img{
     display:flex;
