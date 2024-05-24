@@ -9,7 +9,7 @@ $assunto = "cadastro constrube";
 
 $corpo = "RG: ".$rg."\n"."cpf: ".$cpf."\n"."cnh: ".$cnh"."\n"."email: ".$email;
 
-$cabeça = "from: joaoanime.com@gmail.com"."\n"."Reply-to: "$email"."\n"."X-Mailer:PHP/".phpversion();
+$cabeca = "from: joaoanime.com@gmail.com"."\n"."Reply-to: "$email"."\n"."X-Mailer:PHP/".phpversion();
 
 if(mail(,$para,$assunto,$corpo,$cabeca)){
     echo("email-enviado");
