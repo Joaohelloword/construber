@@ -111,7 +111,5 @@ h2 {
     transition: .3s;
 }
 h1, p {
-display:flex;
-    aling-itens:center;
-}
+    text-align: center;
 }
