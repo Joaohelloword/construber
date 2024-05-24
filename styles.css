@@ -110,7 +110,12 @@ h2 {
     transform: scale3d(1.1, 1.1, 1);
     transition: .3s;
 }
-h1, p{
+h1, p, h2, h3{
     text-align: center;
     color: #EEEEEE;
+}
+img{
+    display:flex;
+    alig-itens:center;
+    justfy-conntent:center;
 }
