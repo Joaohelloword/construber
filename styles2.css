@@ -82,6 +82,8 @@ margin: 30px;
     text-align: center;
     color: #222831;
     border: none;
+    max-width:1380px;
+    margin: 0 auto;
     padding: 0 4%;
 }
 p{
