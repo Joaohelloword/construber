@@ -168,3 +168,6 @@ form input[type=submit]{
 h1,p {
     text-align: center;
 }
+.form-conta{
+    padding-left:4%;
+}
